@@ -253,6 +253,15 @@ nav ul li a{
     font-weight: 600;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.container-2 .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    color: #ffffff;
+    z-index: 2;
+}
 .center-bottom{
     display: flex;
     justify-content: center;
