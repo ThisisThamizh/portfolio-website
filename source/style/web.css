@@ -372,6 +372,23 @@ nav ul li a{
     transform: scale(1.1);
     transition: 0.9s;
 }
+.img5 h3{
+    opacity: 0;
+}
+.img5:hover h3{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.9s;
+}
+.img6 h3{
+    opacity: 0;
+}
+.img6:hover h3{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.9s;
+}
+
 .footer{
     display: flex;
     width: 100%;
