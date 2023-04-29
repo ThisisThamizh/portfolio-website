@@ -1,4 +1,11 @@
 @media (700px <= width <= 1500px) {
+    .wrapper{
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
     h1{
         color: #ECEFF4;
     }
@@ -14,8 +21,15 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: auto;
+        height: 50vh;
         width: 100%;
+    }
+    .container-1 .up img{
+        display: relative;
+        margin-top: auto;
+        width: 235px;
+        height: 50px;
+        border-radius: 10px;
     }
     .center-bottom{
         display: grid;
@@ -54,15 +68,16 @@
     }
     .card{
         opacity: 0;
-        filter: blur(5px);
-        transform: translateX(-50%);
+        filter: blur(1.5px);
+        transform: scale(0.5);
         transition: all 1s;
     }
     .show{
+        width: auto;
         opacity: 1;
         filter: blur(0px);
-        transform: translateX(0);
-    }
+        transform: scale(1);
+    } 
     
 }
 @media ( 600px <= width <= 700px){
@@ -147,15 +162,16 @@
     }
     .card{
         opacity: 0;
-        filter: blur(5px);
-        transform: translateX(-50%);
+        filter: blur(1.5px);
+        transform: scale(0.5);
         transition: all 1s;
     }
     .show{
+        width: auto;
         opacity: 1;
         filter: blur(0px);
-        transform: translateX(0);
-    }
+        transform: scale(1);
+    } 
 }
 @media (400px < width < 600px){
     nav{
@@ -246,16 +262,16 @@
     }
     .card{
         opacity: 0;
-        filter: blur(5px);
-        transform: translateX(-50%);
+        filter: blur(1.5px);
+        transform: scale(0.5);
         transition: all 1s;
     }
     .show{
+        width: auto;
         opacity: 1;
         filter: blur(0px);
-        transform: translateX(0);
-    }
-
+        transform: scale(1);
+    }     
 }
 @media (width < 400px){
     nav{
@@ -298,7 +314,7 @@
     }
     .container-1 .up img{
         display: relative;
-        bottom: -50px;
+        bottom: -10px;
         left: 0.5px;
         margin-top: auto;
         width: 235px;
@@ -311,7 +327,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        height: 150vh;
         width: 100%;
     }
     .container-4 h1{
@@ -320,7 +336,7 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .container-4 p{
-        font-size:7px;
+        font-size:15px;
         font-weight: 500;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-decoration: solid 2px transparent;
@@ -360,16 +376,16 @@
     }
     .card{
         opacity: 0;
-        filter: blur(5px);
-        transform: translateX(-50%);
+        filter: blur(1.5px);
+        transform: scale(0.5);
         transition: all 1s;
     }
     .show{
+        width: auto;
         opacity: 1;
         filter: blur(0px);
-        transform: translateX(0);
-    }
-
+        transform: scale(1);
+    }     
 }
 @media (width <= 300px){
     h1{
