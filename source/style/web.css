@@ -28,14 +28,11 @@ p{
 .card{
     opacity: 0;
     filter: blur(1.5px);
-    transform: scale(0.5) translateX(-40%);
     transition: all 1s;
 }
 .show{
-    width: auto;
     opacity: 1;
     filter: blur(0px);
-    transform: scale(1) translateX(0);
 } 
 /* sub-container hover/active effects */
 .center-bottom img:hover{
@@ -148,7 +145,7 @@ nav ul li a{
     border-radius: 50%;
     opacity: 0.8;
 }
-/* animation kayframes for scroll img */
+/* animation keyframes for scroll img */
 @keyframes scroll{
     0%{
         transform: translateY(0);
@@ -195,18 +192,20 @@ nav ul li a{
     color: #f1c40f;
     text-decoration: underline 0.5px solid;
 }
+.front-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
 .front-image img{
-    margin-top: 11px;
+    margin: 11px 10px;
     filter: grayscale(100%);
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
     border-radius: 10px;
     transition: 0.5s;
 }
 .up img{
-    position: relative;
-    bottom: 56px;
-    left: 250px;
-    margin-top: auto;
     width: 235px;
     height: 50px;
     border-radius: 10px;
